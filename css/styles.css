@@ -246,13 +246,21 @@ advantages {
 }
 
 .advantages-list-container {
-    margin-bottom: 120px;
-    justify-content: center;
-    align-items: center;
-    height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99;
+    height: 112px;
+    margin-bottom: 120px;
+}
+
+.advantages-list-container.advantages-svg-item {
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    display: flex;
 }
 
 .advantages-svg-item {
@@ -261,7 +269,6 @@ advantages {
     margin: 0 auto;
     height: 112px;
     justify-content: center;
-    margin-bottom: 8px;
 }
 
 
@@ -281,6 +288,7 @@ advantages {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 120 px;
 }
 
 .team-section {
