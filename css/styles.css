@@ -180,6 +180,7 @@ letter-spacing: 0.03em;
     padding: 188px 0 188px;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/hero/hero.jpg);
+    margin: 0 auto;
 }
 
 
@@ -244,6 +245,24 @@ advantages {
     width: calc((100% - 72px) / 4);
 }
 
+.advantages-list-container {
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+}
+
+.advantages-svg-item {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    height: 112px;
+    justify-content: center;
+}
+
 
 .list-title {
     font-weight: 500;
@@ -252,6 +271,7 @@ advantages {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .second-title-text {
