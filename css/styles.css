@@ -218,7 +218,7 @@ advantages {
 }
 
 .advanteges-container {
-
+    display: flex;
 }
 
 .visually-hidden {
@@ -261,6 +261,7 @@ advantages {
     margin: 0 auto;
     height: 112px;
     justify-content: center;
+    margin-bottom: 8px;
 }
 
 
