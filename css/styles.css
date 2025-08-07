@@ -14,7 +14,6 @@ body {
 ul {
     list-style-type: none;
     margin-top: 0;
-    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -275,7 +274,6 @@ advantages {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 8px;
 }
 
 .second-title-text {
@@ -284,7 +282,6 @@ advantages {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 120px;
 }
 
 .team-section {
@@ -327,7 +324,6 @@ advantages {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
 }
 
 .team-social-list-item {
